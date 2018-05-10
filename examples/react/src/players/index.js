@@ -3,3 +3,4 @@ export const NoPreload = require('./NoPreload').default
 export const SwapSource = require('./SwapSource').default
 export const AutoPlay = require('./AutoPlay').default
 export const FullControl = require('./FullControl').default
+export const Fade = require('./Fade').default

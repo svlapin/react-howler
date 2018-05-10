@@ -1,6 +1,6 @@
 import React from 'react'
 import SourceLink from './components/SourceLink'
-import { OnlyPlayPauseButton, NoPreload, SwapSource, AutoPlay, FullControl } from './players'
+import { OnlyPlayPauseButton, NoPreload, SwapSource, AutoPlay, FullControl, Fade } from './players'
 
 class App extends React.Component {
   render () {
@@ -35,6 +35,11 @@ class App extends React.Component {
             <h1>Full Control</h1>
             <FullControl />
             <SourceLink fileName='FullControl' />
+          </section>
+          <section>
+            <h1>Fade</h1>
+            <Fade />
+            <SourceLink fileName='Fade' />
           </section>
           <section>
             <h1>Global Howler Object</h1>
